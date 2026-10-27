@@ -1,6 +1,6 @@
 # CS-433 Project 1
 
-English | [简体中文](README.zh-CN.md)
+
 
 Binary classification using ordinary logistic regression and full-batch gradient descent. The final pipeline calls `logistic_regression()` from the course-required `implementations.py`, trains on the full training dataset, and generates test-set predictions.
 
