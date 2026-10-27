@@ -1,0 +1,75 @@
+{
+  "config": {
+    "seed": 43,
+    "threshold": 0.2,
+    "gamma": 0.01,
+    "max_iters": 5000,
+    "recipe_hash": "e7305f10186f0a7c385d17662cb0cbe3b66038ab084e0dff5447daf500249b9a",
+    "implementation_hash": "b47448b05e73119931a118917d1a4553102de8ce2b358b5c16418229dc17c2a0",
+    "signature_schema": 2
+  },
+  "results": [
+    {
+      "case": "baseline",
+      "loss": 0.22218263239711458,
+      "features": 322,
+      "overall": {
+        "tp": 3209,
+        "fp": 6200,
+        "fn": 2586,
+        "positives": 5795,
+        "f1": 0.4221257563799,
+        "precision": 0.34105643532787755,
+        "recall": 0.5537532355478861
+      },
+      "young": {
+        "tp": 13,
+        "fp": 29,
+        "fn": 128,
+        "positives": 141,
+        "f1": 0.14207650273224043,
+        "precision": 0.30952380952380953,
+        "recall": 0.09219858156028368
+      },
+      "seconds_this_run": 791.3281523999758
+    },
+    {
+      "case": "interactions",
+      "loss": 0.2220462889981558,
+      "features": 333,
+      "overall": {
+        "tp": 3236,
+        "fp": 6266,
+        "fn": 2559,
+        "positives": 5795,
+        "f1": 0.42308949467215795,
+        "precision": 0.3405598821300779,
+        "recall": 0.5584124245038826
+      },
+      "young": {
+        "tp": 13,
+        "fp": 30,
+        "fn": 128,
+        "positives": 141,
+        "f1": 0.14130434782608695,
+        "precision": 0.3023255813953488,
+        "recall": 0.09219858156028368
+      },
+      "seconds_this_run": 821.710956200026
+    }
+  ],
+  "existing_files_unchanged": false,
+  "source_review": {
+    "full_run_logic_unchanged": true,
+    "note": "run.py 在测试期间有修改时间变化；完整计算逻辑 AST 与测试前一致，变化只涉及注释或格式。测试脚本没有写入原文件。"
+  },
+  "original_runtime_config": {
+    "seed": 43,
+    "threshold": 0.2,
+    "gamma": 0.01,
+    "max_iters": 5000,
+    "recipe_hash": "fa9d762b10b77d9aeaaccf8a37336e877c186ffccf5c2d4403ea9e920271953f",
+    "implementation_hash": "5b4a23579b443723275c31253bc3eaed904c1ccce6c5e53a302995397cf79c76"
+  },
+  "cache_compatibility_review": "统一代码结构校验，已在 Python 3.12 和 3.14 下确认相同；只迁移元数据，不修改训练结果。"
+}

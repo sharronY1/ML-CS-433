@@ -1,0 +1,1970 @@
+{
+  "unknown": {
+    "LANDLINE": [
+      7,
+      9
+    ],
+    "HHADULT": [
+      77,
+      99
+    ],
+    "GENHLTH": [
+      7,
+      9
+    ],
+    "PHYSHLTH": [
+      77,
+      99
+    ],
+    "MENTHLTH": [
+      77,
+      99
+    ],
+    "POORHLTH": [
+      77,
+      99
+    ],
+    "HLTHPLN1": [
+      7,
+      9
+    ],
+    "PERSDOC2": [
+      7,
+      9
+    ],
+    "MEDCOST": [
+      7,
+      9
+    ],
+    "CHECKUP1": [
+      7,
+      9
+    ],
+    "BPHIGH4": [
+      7,
+      9
+    ],
+    "BPMEDS": [
+      7,
+      9
+    ],
+    "BLOODCHO": [
+      7,
+      9
+    ],
+    "CHOLCHK": [
+      7,
+      9
+    ],
+    "TOLDHI2": [
+      7,
+      9
+    ],
+    "CVDSTRK3": [
+      7,
+      9
+    ],
+    "ASTHMA3": [
+      7,
+      9
+    ],
+    "ASTHNOW": [
+      7,
+      9
+    ],
+    "CHCSCNCR": [
+      7,
+      9
+    ],
+    "CHCOCNCR": [
+      7,
+      9
+    ],
+    "CHCCOPD1": [
+      7,
+      9
+    ],
+    "HAVARTH3": [
+      7,
+      9
+    ],
+    "ADDEPEV2": [
+      7,
+      9
+    ],
+    "CHCKIDNY": [
+      7,
+      9
+    ],
+    "DIABETE3": [
+      7,
+      9
+    ],
+    "DIABAGE2": [
+      98,
+      99
+    ],
+    "MARITAL": [
+      9
+    ],
+    "EDUCA": [
+      9
+    ],
+    "RENTHOM1": [
+      7,
+      9
+    ],
+    "NUMHHOL2": [
+      7,
+      9
+    ],
+    "NUMPHON2": [
+      7,
+      9
+    ],
+    "CPDEMO1": [
+      7,
+      9
+    ],
+    "VETERAN3": [
+      7,
+      9
+    ],
+    "EMPLOY1": [
+      9
+    ],
+    "CHILDREN": [
+      99
+    ],
+    "INCOME2": [
+      77,
+      99
+    ],
+    "INTERNET": [
+      7,
+      9
+    ],
+    "WEIGHT2": [
+      7777,
+      9999
+    ],
+    "HEIGHT3": [
+      7777,
+      9999
+    ],
+    "PREGNANT": [
+      7,
+      9
+    ],
+    "QLACTLM2": [
+      7,
+      9
+    ],
+    "USEEQUIP": [
+      7,
+      9
+    ],
+    "BLIND": [
+      7,
+      9
+    ],
+    "DECIDE": [
+      7,
+      9
+    ],
+    "DIFFWALK": [
+      7,
+      9
+    ],
+    "DIFFDRES": [
+      7,
+      9
+    ],
+    "DIFFALON": [
+      7,
+      9
+    ],
+    "SMOKE100": [
+      7,
+      9
+    ],
+    "SMOKDAY2": [
+      7,
+      9
+    ],
+    "STOPSMK2": [
+      7,
+      9
+    ],
+    "LASTSMK2": [
+      77,
+      99
+    ],
+    "USENOW3": [
+      7,
+      9
+    ],
+    "ALCDAY5": [
+      777,
+      999
+    ],
+    "AVEDRNK2": [
+      77,
+      99
+    ],
+    "DRNK3GE5": [
+      77,
+      99
+    ],
+    "MAXDRNKS": [
+      77,
+      99
+    ],
+    "FRUITJU1": [
+      777,
+      999
+    ],
+    "FRUIT1": [
+      777,
+      999
+    ],
+    "FVBEANS": [
+      777,
+      999
+    ],
+    "FVGREEN": [
+      777,
+      999
+    ],
+    "FVORANG": [
+      777,
+      999
+    ],
+    "VEGETAB1": [
+      777,
+      999
+    ],
+    "EXERANY2": [
+      7,
+      9
+    ],
+    "EXRACT11": [
+      77,
+      99
+    ],
+    "EXEROFT1": [
+      777,
+      999
+    ],
+    "EXERHMM1": [
+      777,
+      999
+    ],
+    "EXRACT21": [
+      77,
+      99
+    ],
+    "EXEROFT2": [
+      777,
+      999
+    ],
+    "EXERHMM2": [
+      777,
+      999
+    ],
+    "STRENGTH": [
+      777,
+      999
+    ],
+    "LMTJOIN3": [
+      7,
+      9
+    ],
+    "ARTHDIS2": [
+      7,
+      9
+    ],
+    "ARTHSOCL": [
+      7,
+      9
+    ],
+    "JOINPAIN": [
+      77,
+      99
+    ],
+    "SEATBELT": [
+      7,
+      9
+    ],
+    "FLUSHOT6": [
+      7,
+      9
+    ],
+    "FLSHTMY2": [
+      777777,
+      999999
+    ],
+    "IMFVPLAC": [
+      77,
+      99
+    ],
+    "PNEUVAC3": [
+      7,
+      9
+    ],
+    "HIVTST6": [
+      7,
+      9
+    ],
+    "HIVTSTD3": [
+      777777,
+      999999
+    ],
+    "WHRTST10": [
+      77,
+      99
+    ],
+    "PDIABTST": [
+      7,
+      9
+    ],
+    "PREDIAB1": [
+      7,
+      9
+    ],
+    "INSULIN": [
+      9
+    ],
+    "BLDSUGAR": [
+      777,
+      999
+    ],
+    "FEETCHK2": [
+      777,
+      999
+    ],
+    "DOCTDIAB": [
+      77,
+      99
+    ],
+    "CHKHEMO3": [
+      77,
+      99
+    ],
+    "FEETCHK": [
+      77,
+      99
+    ],
+    "EYEEXAM": [
+      7,
+      9
+    ],
+    "DIABEYE": [
+      7,
+      9
+    ],
+    "DIABEDU": [
+      7,
+      9
+    ],
+    "CAREGIV1": [
+      7,
+      9
+    ],
+    "CRGVREL1": [
+      77,
+      99
+    ],
+    "CRGVLNG1": [
+      7,
+      9
+    ],
+    "CRGVHRS1": [
+      7,
+      9
+    ],
+    "CRGVPRB1": [
+      77,
+      99
+    ],
+    "CRGVPERS": [
+      7,
+      9
+    ],
+    "CRGVHOUS": [
+      7,
+      9
+    ],
+    "CRGVMST2": [
+      7,
+      9
+    ],
+    "CRGVEXPT": [
+      7,
+      9
+    ],
+    "VIDFCLT2": [
+      7
+    ],
+    "VIREDIF3": [
+      7
+    ],
+    "VIPRFVS2": [
+      7,
+      9
+    ],
+    "VINOCRE2": [
+      77,
+      99
+    ],
+    "VIEYEXM2": [
+      7,
+      9
+    ],
+    "VIINSUR2": [
+      7,
+      9
+    ],
+    "VICTRCT4": [
+      7
+    ],
+    "VIGLUMA2": [
+      7
+    ],
+    "VIMACDG2": [
+      7
+    ],
+    "CIMEMLOS": [
+      7,
+      9
+    ],
+    "CDHOUSE": [
+      7,
+      9
+    ],
+    "CDASSIST": [
+      7,
+      9
+    ],
+    "CDHELP": [
+      7,
+      9
+    ],
+    "CDSOCIAL": [
+      7,
+      9
+    ],
+    "CDDISCUS": [
+      7,
+      9
+    ],
+    "WTCHSALT": [
+      7,
+      9
+    ],
+    "LONGWTCH": [
+      777,
+      999
+    ],
+    "DRADVISE": [
+      7,
+      9
+    ],
+    "ASTHMAGE": [
+      98,
+      99
+    ],
+    "ASATTACK": [
+      7
+    ],
+    "ASERVIST": [
+      98
+    ],
+    "ASDRVIST": [
+      98
+    ],
+    "ASRCHKUP": [
+      98,
+      99
+    ],
+    "ASACTLIM": [
+      777,
+      999
+    ],
+    "ASYMPTOM": [
+      7,
+      9
+    ],
+    "ASNOSLEP": [
+      7
+    ],
+    "ASTHMED3": [
+      7,
+      9
+    ],
+    "ASINHALR": [
+      7,
+      9
+    ],
+    "HAREHAB1": [
+      7,
+      9
+    ],
+    "STREHAB1": [
+      7,
+      9
+    ],
+    "CVDASPRN": [
+      7,
+      9
+    ],
+    "ASPUNSAF": [
+      7,
+      9
+    ],
+    "RLIVPAIN": [
+      7,
+      9
+    ],
+    "RDUCHART": [
+      7,
+      9
+    ],
+    "RDUCSTRK": [
+      7,
+      9
+    ],
+    "ARTTODAY": [
+      7,
+      9
+    ],
+    "ARTHWGT": [
+      7,
+      9
+    ],
+    "ARTHEXER": [
+      7,
+      9
+    ],
+    "ARTHEDU": [
+      7,
+      9
+    ],
+    "TETANUS": [
+      7,
+      9
+    ],
+    "HPVADVC2": [
+      7,
+      9
+    ],
+    "HPVADSHT": [
+      77,
+      99
+    ],
+    "SHINGLE2": [
+      7,
+      9
+    ],
+    "HADMAM": [
+      7,
+      9
+    ],
+    "HOWLONG": [
+      7,
+      9
+    ],
+    "HADPAP2": [
+      7,
+      9
+    ],
+    "LASTPAP2": [
+      7,
+      9
+    ],
+    "HPVTEST": [
+      7,
+      9
+    ],
+    "HPLSTTST": [
+      7,
+      9
+    ],
+    "HADHYST2": [
+      7,
+      9
+    ],
+    "PROFEXAM": [
+      7,
+      9
+    ],
+    "LENGEXAM": [
+      7,
+      9
+    ],
+    "BLDSTOOL": [
+      7,
+      9
+    ],
+    "LSTBLDS3": [
+      7,
+      9
+    ],
+    "HADSIGM3": [
+      7,
+      9
+    ],
+    "HADSGCO1": [
+      7,
+      9
+    ],
+    "LASTSIG3": [
+      7,
+      9
+    ],
+    "PCPSAAD2": [
+      7,
+      9
+    ],
+    "PCPSADI1": [
+      7,
+      9
+    ],
+    "PCPSARE1": [
+      7,
+      9
+    ],
+    "PSATEST1": [
+      7,
+      9
+    ],
+    "PSATIME": [
+      7,
+      9
+    ],
+    "PCPSARS1": [
+      7,
+      9
+    ],
+    "PCPSADE1": [
+      9
+    ],
+    "PCDMDECN": [
+      7,
+      9
+    ],
+    "SCNTMNY1": [
+      7,
+      9
+    ],
+    "SCNTMEL1": [
+      7,
+      9
+    ],
+    "SCNTPAID": [
+      7,
+      9
+    ],
+    "SCNTWRK1": [
+      97,
+      99
+    ],
+    "SCNTLPAD": [
+      7,
+      9
+    ],
+    "SCNTLWK1": [
+      97,
+      99
+    ],
+    "SXORIENT": [
+      7,
+      9
+    ],
+    "TRNSGNDR": [
+      7,
+      9
+    ],
+    "RCSGENDR": [
+      9
+    ],
+    "RCSRLTN2": [
+      7,
+      9
+    ],
+    "CASTHDX2": [
+      7,
+      9
+    ],
+    "CASTHNO2": [
+      7,
+      9
+    ],
+    "EMTSUPRT": [
+      7,
+      9
+    ],
+    "LSATISFY": [
+      7,
+      9
+    ],
+    "ADPLEASR": [
+      77,
+      99
+    ],
+    "ADDOWN": [
+      77,
+      99
+    ],
+    "ADSLEEP": [
+      77,
+      99
+    ],
+    "ADENERGY": [
+      77,
+      99
+    ],
+    "ADEAT1": [
+      77,
+      99
+    ],
+    "ADFAIL": [
+      77,
+      99
+    ],
+    "ADTHINK": [
+      77,
+      99
+    ],
+    "ADMOVE": [
+      77,
+      99
+    ],
+    "MISTMNT": [
+      7,
+      9
+    ],
+    "ADANXEV": [
+      7,
+      9
+    ],
+    "_CHISPNC": [
+      9
+    ],
+    "_CRACE1": [
+      77,
+      99
+    ],
+    "_CPRACE": [
+      77,
+      99
+    ],
+    "_RFHLTH": [
+      9
+    ],
+    "_HCVU651": [
+      9
+    ],
+    "_RFHYPE5": [
+      9
+    ],
+    "_CHOLCHK": [
+      9
+    ],
+    "_RFCHOL": [
+      9
+    ],
+    "_LTASTH1": [
+      9
+    ],
+    "_CASTHM1": [
+      9
+    ],
+    "_ASTHMS1": [
+      9
+    ],
+    "_PRACE1": [
+      77,
+      99
+    ],
+    "_MRACE1": [
+      77,
+      99
+    ],
+    "_HISPANC": [
+      9
+    ],
+    "_RACE": [
+      9
+    ],
+    "_RACEG21": [
+      9
+    ],
+    "_RACEGR3": [
+      9
+    ],
+    "_AGEG5YR": [
+      14
+    ],
+    "_AGE65YR": [
+      3
+    ],
+    "WTKG3": [
+      99999
+    ],
+    "_RFBMI5": [
+      9
+    ],
+    "_CHLDCNT": [
+      9
+    ],
+    "_EDUCAG": [
+      9
+    ],
+    "_INCOMG": [
+      9
+    ],
+    "_SMOKER3": [
+      9
+    ],
+    "_RFSMOK3": [
+      9
+    ],
+    "DRNKANY5": [
+      7,
+      9
+    ],
+    "DROCDY3_": [
+      900
+    ],
+    "_RFBING5": [
+      9
+    ],
+    "_DRNKWEK": [
+      99900
+    ],
+    "_RFDRHV5": [
+      9
+    ],
+    "_FRTLT1": [
+      9
+    ],
+    "_VEGLT1": [
+      9
+    ],
+    "_TOTINDA": [
+      9
+    ],
+    "MAXVO2_": [
+      99900
+    ],
+    "FC60_": [
+      99900
+    ],
+    "PAFREQ1_": [
+      99000
+    ],
+    "PAFREQ2_": [
+      99000
+    ],
+    "STRFREQ_": [
+      99000
+    ],
+    "PAMISS1_": [
+      9
+    ],
+    "_PACAT1": [
+      9
+    ],
+    "_PAINDX1": [
+      9
+    ],
+    "_PA150R2": [
+      9
+    ],
+    "_PA300R2": [
+      9
+    ],
+    "_PA30021": [
+      9
+    ],
+    "_PASTRNG": [
+      9
+    ],
+    "_PAREC1": [
+      9
+    ],
+    "_PASTAE1": [
+      9
+    ],
+    "_LMTACT1": [
+      9
+    ],
+    "_LMTWRK1": [
+      9
+    ],
+    "_LMTSCL1": [
+      9
+    ],
+    "_RFSEAT2": [
+      9
+    ],
+    "_RFSEAT3": [
+      9
+    ],
+    "_FLSHOT6": [
+      9
+    ],
+    "_PNEUMO2": [
+      9
+    ],
+    "_AIDTST3": [
+      9
+    ]
+  },
+  "zero": {
+    "PHYSHLTH": [
+      88
+    ],
+    "MENTHLTH": [
+      88
+    ],
+    "POORHLTH": [
+      88
+    ],
+    "CHILDREN": [
+      88
+    ],
+    "ALCDAY5": [
+      888
+    ],
+    "DRNK3GE5": [
+      88
+    ],
+    "FRUITJU1": [
+      555
+    ],
+    "FRUIT1": [
+      555
+    ],
+    "FVBEANS": [
+      555
+    ],
+    "FVGREEN": [
+      555
+    ],
+    "FVORANG": [
+      555
+    ],
+    "VEGETAB1": [
+      555
+    ],
+    "STRENGTH": [
+      888
+    ],
+    "BLDSUGAR": [
+      888
+    ],
+    "FEETCHK2": [
+      888
+    ],
+    "DOCTDIAB": [
+      88
+    ],
+    "CHKHEMO3": [
+      88
+    ],
+    "FEETCHK": [
+      88
+    ],
+    "ASERVIST": [
+      88
+    ],
+    "ASDRVIST": [
+      88
+    ],
+    "ASRCHKUP": [
+      88
+    ],
+    "ASACTLIM": [
+      888
+    ],
+    "ADPLEASR": [
+      88
+    ],
+    "ADDOWN": [
+      88
+    ],
+    "ADSLEEP": [
+      88
+    ],
+    "ADENERGY": [
+      88
+    ],
+    "ADEAT1": [
+      88
+    ],
+    "ADFAIL": [
+      88
+    ],
+    "ADTHINK": [
+      88
+    ],
+    "ADMOVE": [
+      88
+    ]
+  },
+  "evidence": {
+    "LANDLINE": [
+      "7 Don’t know/Not sure 175 0.09 0.10 ",
+      "9 Refused 164 0.09 0.10 "
+    ],
+    "HHADULT": [
+      "77 Don’t know/Not sure 144 0.08 0.10 ",
+      "99 Refused 399 0.22 0.35 "
+    ],
+    "GENHLTH": [
+      "7 Don’t know/Not Sure 799 0.18 0.18 ",
+      "9 Refused 446 0.10 0.11 "
+    ],
+    "PHYSHLTH": [
+      "88 None 274,143 62.10 62.77 ",
+      "77 Don’t know/Not sure 7,664 1.74 1.51 ",
+      "99 Refused 2,078 0.47 0.52 "
+    ],
+    "MENTHLTH": [
+      "88 None 301,076 68.20 64.74 ",
+      "77 Don’t know/Not sure 5,204 1.18 1.11 ",
+      "99 Refused 2,204 0.50 0.56 "
+    ],
+    "POORHLTH": [
+      "88 None 125,838 55.44 56.23 ",
+      "77 Don’t know/Not sure 3,782 1.67 1.43 ",
+      "99 Refused 1,250 0.55 0.59 "
+    ],
+    "HLTHPLN1": [
+      "7 Don’t know/Not Sure 1,052 0.24 0.43 ",
+      "9 Refused 788 0.18 0.19 "
+    ],
+    "PERSDOC2": [
+      "7 Don’t know/Not Sure 1,165 0.26 0.37 ",
+      "9 Refused 691 0.16 0.17 "
+    ],
+    "MEDCOST": [
+      "7 Don’t know/Not sure 945 0.21 0.25 ",
+      "9 Refused 248 0.06 0.07 "
+    ],
+    "CHECKUP1": [
+      "7 Don’t know/Not sure 5,453 1.24 1.18 ",
+      "9 Refused 661 0.15 0.15 "
+    ],
+    "BPHIGH4": [
+      "7 Don´t know/Not Sure--- -Go to Section 05.01 BLOODCHO 862 0.20 0.19 ",
+      "9 Refused--- -Go to Section 05.01 BLOODCHO 504 0.11 0.12 "
+    ],
+    "BPMEDS": [
+      "7 Don’t know/Not Sure 258 0.14 0.10 ",
+      "9 Refused 63 0.04 0.03 "
+    ],
+    "BLOODCHO": [
+      "7 Don’t know/Not Sure--- -Go to Section 06.01 CVDINFR4 9,279 2.10 2.82 ",
+      "9 Refused--- -Go to Section 06.01 CVDINFR4 202 0.05 0.04 "
+    ],
+    "CHOLCHK": [
+      "7 Don’t know/Not Sure 5,584 1.46 1.33 ",
+      "9 Refused 272 0.07 0.08 "
+    ],
+    "TOLDHI2": [
+      "7 Don’t know/Not Sure 3,037 0.79 0.71 ",
+      "9 Refused 524 0.14 0.13 "
+    ],
+    "CVDSTRK3": [
+      "7 Don’t know/Not sure 1,146 0.26 0.21 ",
+      "9 Refused 144 0.03 0.03 "
+    ],
+    "ASTHMA3": [
+      "7 Don’t know/Not Sure--- -Go to Section 06.06 CHCSCNCR 1,336 0.30 0.28 ",
+      "9 Refused--- -Go to Section 06.06 CHCSCNCR 157 0.04 0.04 "
+    ],
+    "ASTHNOW": [
+      "7 Don’t know/Not Sure 1,761 2.96 2.99 ",
+      "9 Refused 48 0.08 0.09 "
+    ],
+    "CHCSCNCR": [
+      "7 Don’t know / Not sure 1,104 0.25 0.19 ",
+      "9 Refused 155 0.04 0.03 "
+    ],
+    "CHCOCNCR": [
+      "7 Don’t know / Not sure 888 0.20 0.17 ",
+      "9 Refused 195 0.04 0.05 "
+    ],
+    "CHCCOPD1": [
+      "7 Don’t know / Not sure 2,196 0.50 0.45 ",
+      "9 Refused 173 0.04 0.04 "
+    ],
+    "HAVARTH3": [
+      "7 Don’t know/Not Sure 2,563 0.58 0.55 ",
+      "9 Refused 235 0.05 0.06 "
+    ],
+    "ADDEPEV2": [
+      "7 Don’t know/Not sure 1,659 0.38 0.38 ",
+      "9 Refused 538 0.12 0.12 "
+    ],
+    "CHCKIDNY": [
+      "7 Don’t know / Not sure 1,375 0.31 0.29 ",
+      "9 Refused 202 0.05 0.04 "
+    ],
+    "DIABETE3": [
+      "7 Don’t know/Not Sure--- -Go to Section 07.7.1 SEX 598 0.14 0.16 ",
+      "9 Refused--- -Go to Section 07.7.1 SEX 193 0.04 0.04 "
+    ],
+    "DIABAGE2": [
+      "98 Don’t know/Not sure 3,630 6.34 5.36 ",
+      "99 Refused 267 0.47 0.46 "
+    ],
+    "MARITAL": [
+      "9 Refused 3,096 0.70 0.70 "
+    ],
+    "EDUCA": [
+      "9 Refused 1,811 0.41 0.42 "
+    ],
+    "RENTHOM1": [
+      "7 Don’t know/Not Sure 738 0.17 0.24 ",
+      "9 Refused 2,405 0.54 0.57 "
+    ],
+    "NUMHHOL2": [
+      "7 Don’t know/Not sure--- -Go to Section 07.13 CPDEMO1 238 0.09 0.07 ",
+      "9 Refused--- -Go to Section 07.13 CPDEMO1 738 0.29 0.29 "
+    ],
+    "NUMPHON2": [
+      "7 Don’t know/Not Sure 161 1.22 1.54 ",
+      "9 Refused 158 1.19 1.84 "
+    ],
+    "CPDEMO1": [
+      "7 Don’t know/Not sure 169 0.07 0.05 ",
+      "9 Refused 1,131 0.44 0.43 "
+    ],
+    "VETERAN3": [
+      "7 Don’t know/Not Sure 166 0.04 0.03 ",
+      "9 Refused 670 0.15 0.13 "
+    ],
+    "EMPLOY1": [
+      "9 Refused 3,795 0.86 1.01 "
+    ],
+    "CHILDREN": [
+      "88 None 324,000 73.39 62.57 ",
+      "99 Refused 3,632 0.82 1.02 "
+    ],
+    "INCOME2": [
+      "77 Don’t know/Not sure 35,258 8.05 8.88 ",
+      "99 Refused 40,946 9.35 7.95 "
+    ],
+    "INTERNET": [
+      "7 Don’t know/Not Sure 457 0.10 0.09 ",
+      "9 Refused 939 0.21 0.37 "
+    ],
+    "WEIGHT2": [
+      "7777 Don’t know/Not sure 7,695 1.76 1.98 ",
+      "9999 Refused 17,905 4.11 3.40 "
+    ],
+    "HEIGHT3": [
+      "7777 Don’t know/Not sure 3,776 0.87 1.39 ",
+      "9999 Refused 5,732 1.32 1.37 "
+    ],
+    "PREGNANT": [
+      "7 Don’t know/Not Sure 206 0.32 0.33 ",
+      "9 Refused 289 0.44 0.72 "
+    ],
+    "QLACTLM2": [
+      "7 Don’t know/Not Sure 1,922 0.44 0.35 ",
+      "9 Refused 1,274 0.29 0.66 "
+    ],
+    "USEEQUIP": [
+      "7 Don’t know/Not Sure 342 0.08 0.07 ",
+      "9 Refused 770 0.18 0.58 "
+    ],
+    "BLIND": [
+      "7 Don’t know/Not Sure 824 0.19 0.18 ",
+      "9 Refused 863 0.20 0.62 "
+    ],
+    "DECIDE": [
+      "7 Don’t know/Not Sure 1,883 0.44 0.34 ",
+      "9 Refused 1,032 0.24 0.68 "
+    ],
+    "DIFFWALK": [
+      "7 Don’t know/Not Sure 1,346 0.31 0.21 ",
+      "9 Refused 914 0.21 0.66 "
+    ],
+    "DIFFDRES": [
+      "7 Don’t know/Not Sure 396 0.09 0.09 ",
+      "9 Refused 789 0.18 0.66 "
+    ],
+    "DIFFALON": [
+      "7 Don’t know/Not Sure 931 0.22 0.16 ",
+      "9 Refused 981 0.23 0.73 "
+    ],
+    "SMOKE100": [
+      "7 Don’t know/Not Sure--- -Go to Section 08.05 USENOW3 1,832 0.43 0.35 ",
+      "9 Refused--- -Go to Section 08.05 USENOW3 1,462 0.34 1.28 "
+    ],
+    "SMOKDAY2": [
+      "7 Don´t Know/Not Sure--- -Go to Section 08.05 USENOW3 86 0.05 0.05 ",
+      "9 Refused--- -Go to Section 08.05 USENOW3 249 0.14 0.15 "
+    ],
+    "STOPSMK2": [
+      "7 Don’t know/Not Sure--- -Go to Section 08.05 USENOW3 180 0.29 0.26 ",
+      "9 Refused--- -Go to Section 08.05 USENOW3 34 0.06 0.07 "
+    ],
+    "LASTSMK2": [
+      "77 Don’t know/Not sure 706 0.58 0.59 ",
+      "99 Refused 127 0.10 0.12 "
+    ],
+    "USENOW3": [
+      "7 Don’t know/Not Sure 143 0.03 0.06 ",
+      "9 Refused 1,825 0.43 1.47 "
+    ],
+    "ALCDAY5": [
+      "777 Don’t know/Not sure--- -Go to Section 10.01 FRUITJU1 3,095 0.73 0.75 ",
+      "888 No drinks in past 30 days--- -Go to Section 10.01 FRUITJU1 208,460 48.99 46.56 ",
+      "999 Refused--- -Go to Section 10.01 FRUITJU1 2,624 0.62 1.39 "
+    ],
+    "AVEDRNK2": [
+      "77 Don’t know/Not sure 2,826 1.34 1.69 ",
+      "99 Refused 749 0.36 0.38 "
+    ],
+    "DRNK3GE5": [
+      "88 None 156,779 74.51 67.42 ",
+      "77 Don’t know/Not Sure 2,374 1.13 1.36 ",
+      "99 Refused 661 0.31 0.39 "
+    ],
+    "MAXDRNKS": [
+      "77 Don’t know/Not sure 5,514 2.63 3.04 ",
+      "99 Refused 1,116 0.53 0.67 "
+    ],
+    "FRUITJU1": [
+      "555 Never 165,937 40.13 38.54 ",
+      "777 Don’t know/Not sure 8,229 1.99 1.91 ",
+      "999 Refused 2,308 0.56 1.64 "
+    ],
+    "FRUIT1": [
+      "555 Never 16,204 3.93 4.31 ",
+      "777 Don’t know/Not sure 5,139 1.25 1.08 ",
+      "999 Refused 2,293 0.56 1.68 "
+    ],
+    "FVBEANS": [
+      "555 Never 68,637 16.70 16.41 ",
+      "777 Don’t know/Not sure 7,386 1.80 1.40 ",
+      "999 Refused 2,186 0.53 1.67 "
+    ],
+    "FVGREEN": [
+      "555 Never 31,418 7.66 7.43 ",
+      "777 Don’t know/Not sure 4,427 1.08 0.87 ",
+      "999 Refused 2,211 0.54 1.74 "
+    ],
+    "FVORANG": [
+      "555 Never 59,408 14.51 16.90 ",
+      "777 Don’t know/Not sure 4,989 1.22 1.02 ",
+      "999 Refused 2,154 0.53 1.75 "
+    ],
+    "VEGETAB1": [
+      "555 Never 7,452 1.83 2.43 ",
+      "777 Don’t know/Not sure 5,795 1.42 1.19 ",
+      "999 Refused 2,530 0.62 1.93 "
+    ],
+    "EXERANY2": [
+      "7 Don’t know/Not Sure 602 0.15 0.13 ",
+      "9 Refused 1,946 0.48 1.91 "
+    ],
+    "EXRACT11": [
+      "77 Don’t know/Not Sure--- -Go to Section 11.08 STRENGTH 800 0.27 0.24 ",
+      "99 Refused--- -Go to Section 11.08 STRENGTH 414 0.14 0.15 "
+    ],
+    "EXEROFT1": [
+      "777 Don’t know/Not sure 2,275 0.77 0.62 ",
+      "999 Refused 585 0.20 0.21 "
+    ],
+    "EXERHMM1": [
+      "777 Don’t know/Not sure 5,520 1.88 1.42 ",
+      "999 Refused 429 0.15 0.15 "
+    ],
+    "EXRACT21": [
+      "77 Don’t know/Not Sure--- -Go to Section 11.08 STRENGTH 2,805 0.96 0.93 ",
+      "99 Refused--- -Go to Section 11.08 STRENGTH 861 0.29 0.34 "
+    ],
+    "EXEROFT2": [
+      "777 Don’t know/Not sure 1,810 0.92 0.74 ",
+      "999 Refused 410 0.21 0.18 "
+    ],
+    "EXERHMM2": [
+      "777 Don’t know/Not sure 3,975 2.02 1.49 ",
+      "999 Refused 432 0.22 0.22 "
+    ],
+    "STRENGTH": [
+      "777 Don’t know / Not sure 2,788 0.69 0.60 ",
+      "888 Never 244,368 60.68 56.25 ",
+      "999 Refused 2,505 0.62 2.15 "
+    ],
+    "LMTJOIN3": [
+      "7 Don’t know/Not sure 1,153 0.84 0.71 ",
+      "9 Refused 497 0.36 1.27 "
+    ],
+    "ARTHDIS2": [
+      "7 Don’t know/Not Sure 2,484 1.82 1.49 ",
+      "9 Refused 1,599 1.17 1.90 "
+    ],
+    "ARTHSOCL": [
+      "7 Don’t know/Not Sure 671 0.49 0.43 ",
+      "9 Refused 586 0.43 1.36 "
+    ],
+    "JOINPAIN": [
+      "77 Don’t know/Not Sure 1,891 1.41 1.12 ",
+      "99 Refused 760 0.57 1.35 "
+    ],
+    "SEATBELT": [
+      "7 Don’t know/Not sure 253 0.06 0.06 ",
+      "9 Refused 2,076 0.52 2.11 "
+    ],
+    "FLUSHOT6": [
+      "7 Don’t know/Not Sure--- -Go to Section 14.04 PNEUVAC3 965 0.24 0.32 ",
+      "9 Refused--- -Go to Section 14.04 PNEUVAC3 2,101 0.53 2.18 "
+    ],
+    "FLSHTMY2": [
+      "777777 Don’t know/Not Sure 10,944 5.75 6.72 ",
+      "999999 Refused 324 0.17 0.25 "
+    ],
+    "IMFVPLAC": [
+      "77 Don’t know / Not sure--- -Probe: 562 0.29 0.36 ",
+      "99 Refused 119 0.06 0.11 "
+    ],
+    "PNEUVAC3": [
+      "7 Don’t know/Not Sure 34,121 8.54 11.36 ",
+      "9 Refused 2,104 0.53 2.20 "
+    ],
+    "HIVTST6": [
+      "7 Don’t know/Not Sure--- -Go to optional modules or closing statement 11,562 2.90 2.45 ",
+      "9 Refused--- -Go to optional modules or closing statement 2,995 0.75 2.48 "
+    ],
+    "HIVTSTD3": [
+      "777777 Don’t know/Not sure 23,677 20.83 18.09 ",
+      "999999 Refused 439 0.39 0.39 "
+    ],
+    "WHRTST10": [
+      "77 Don’t know/Not sure 1,991 1.75 1.38 ",
+      "99 Refused 265 0.23 0.26 "
+    ],
+    "PDIABTST": [
+      "7 Don’t know/Not Sure 3,826 4.62 4.62 ",
+      "9 Refused 41 0.05 0.05 "
+    ],
+    "PREDIAB1": [
+      "7 Don’t know/Not Sure 291 0.35 0.38 ",
+      "9 Refused 47 0.06 0.05 "
+    ],
+    "INSULIN": [
+      "9 Refused 34 0.12 0.09 "
+    ],
+    "BLDSUGAR": [
+      "777 Don’t know/Not sure 436 1.48 1.67 ",
+      "888 Never 3,954 13.44 12.96 ",
+      "999 Refused 83 0.28 0.27 "
+    ],
+    "FEETCHK2": [
+      "777 Don’t know/Not sure 763 2.59 2.43 ",
+      "888 Never 4,175 14.19 15.24 ",
+      "999 Refused 112 0.38 0.37 "
+    ],
+    "DOCTDIAB": [
+      "88 None 2,895 9.84 9.93 ",
+      "77 Don’t know/Not sure 993 3.38 3.14 ",
+      "99 Refused 116 0.39 0.44 "
+    ],
+    "CHKHEMO3": [
+      "88 None 1,549 5.27 6.47 ",
+      "77 Don’t know/Not sure 1,881 6.39 6.60 ",
+      "99 Refused 84 0.29 0.20 "
+    ],
+    "FEETCHK": [
+      "88 None 6,362 21.83 22.96 ",
+      "77 Don’t know/Not sure 839 2.88 2.75 ",
+      "99 Refused 78 0.27 0.27 "
+    ],
+    "EYEEXAM": [
+      "7 Don’t know/Not sure 416 1.41 1.31 ",
+      "9 Refused 32 0.11 0.08 "
+    ],
+    "DIABEYE": [
+      "7 Don’t know/Not sure 373 1.27 1.25 ",
+      "9 Refused 19 0.06 0.05 "
+    ],
+    "DIABEDU": [
+      "7 Don’t know/Not sure 106 0.36 0.32 ",
+      "9 Refused 22 0.07 0.05 "
+    ],
+    "CAREGIV1": [
+      "7 Don’t know/Not Sure--- -Go to Module 4.09 CRGVEXPT 217 0.20 0.19 ",
+      "9 Refused--- -Go to Module 4.09 CRGVEXPT 110 0.10 0.11 "
+    ],
+    "CRGVREL1": [
+      "77 Don’t know/Not Sure 43 0.18 0.14 ",
+      "99 Refused 115 0.48 0.63 "
+    ],
+    "CRGVLNG1": [
+      "7 Don’t know/Not sure 293 1.22 1.20 ",
+      "9 Refused 60 0.25 0.17 "
+    ],
+    "CRGVHRS1": [
+      "7 Don’t know/Not sure 1,203 5.02 4.28 ",
+      "9 Refused 202 0.84 0.68 "
+    ],
+    "CRGVPRB1": [
+      "77 Don’t know/Not Sure 549 2.29 2.58 ",
+      "99 Refused 570 2.38 2.54 "
+    ],
+    "CRGVPERS": [
+      "7 Don’t know/Not Sure 57 0.24 0.17 ",
+      "9 Refused 89 0.37 0.33 "
+    ],
+    "CRGVHOUS": [
+      "7 Don’t know/Not Sure 69 0.29 0.18 ",
+      "9 Refused 75 0.31 0.27 "
+    ],
+    "CRGVMST2": [
+      "7 Don’t know/Not Sure 575 2.41 2.46 ",
+      "9 Refused 153 0.64 0.55 "
+    ],
+    "CRGVEXPT": [
+      "7 Don’t know/Not Sure 6,076 7.17 6.25 ",
+      "9 Refused 189 0.22 0.21 "
+    ],
+    "VIDFCLT2": [
+      "7 Don’t know/Not sure 7 0.22 0.23 "
+    ],
+    "VIREDIF3": [
+      "7 Don’t know/Not sure 14 0.44 0.35 "
+    ],
+    "VIPRFVS2": [
+      "7 Don’t know/Not sure 26 0.82 1.13 ",
+      "9 Refused 2 0.06 0.08 "
+    ],
+    "VINOCRE2": [
+      "77 Don’t know/Not Sure 18 1.69 1.47 ",
+      "99 Refused 4 0.37 0.26 "
+    ],
+    "VIEYEXM2": [
+      "7 Don’t know/Not Sure 66 2.61 3.15 ",
+      "9 Refused 2 0.08 0.09 "
+    ],
+    "VIINSUR2": [
+      "7 Don’t know/Not Sure 90 2.83 3.26 ",
+      "9 Refused 2 0.06 0.05 "
+    ],
+    "VICTRCT4": [
+      "7 Don’t know/Not Sure 12 0.38 0.57 "
+    ],
+    "VIGLUMA2": [
+      "7 Don’t know/Not Sure 12 0.38 0.34 "
+    ],
+    "VIMACDG2": [
+      "7 Don’t know/Not Sure 38 1.20 1.16 "
+    ],
+    "CIMEMLOS": [
+      "7 Don’t know/Not sure 857 0.73 0.56 ",
+      "9 Refused--- -Go to next module 190 0.16 0.15 "
+    ],
+    "CDHOUSE": [
+      "7 Don’t know/Not sure 255 1.92 1.88 ",
+      "9 Refused 46 0.35 0.26 "
+    ],
+    "CDASSIST": [
+      "7 Don’t know/Not sure--- -Go to Module 6.05 CDDISCUS 142 1.07 1.02 ",
+      "9 Refused--- -Go to Module 6.05 CDDISCUS 27 0.20 0.14 "
+    ],
+    "CDHELP": [
+      "7 Don’t know/Not sure 34 0.79 0.68 ",
+      "9 Refused 2 0.05 0.03 "
+    ],
+    "CDSOCIAL": [
+      "7 Don’t know/Not sure 224 1.69 1.47 ",
+      "9 Refused 35 0.26 0.17 "
+    ],
+    "CDDISCUS": [
+      "7 Don’t know/Not Sure 101 0.77 0.58 ",
+      "9 Refused 17 0.13 0.15 "
+    ],
+    "WTCHSALT": [
+      "7 Don’t know/Not Sure--- -Go to Module 07.03 DRADVISE 161 0.39 0.44 ",
+      "9 Refused--- -Go to Module 07.03 DRADVISE 65 0.16 0.18 "
+    ],
+    "LONGWTCH": [
+      "777 Don’t know/Not Sure 1,389 5.46 5.33 ",
+      "999 Refused 56 0.22 0.27 "
+    ],
+    "DRADVISE": [
+      "7 Don’t know/Not Sure 224 0.54 0.48 ",
+      "9 Refused 38 0.09 0.11 "
+    ],
+    "ASTHMAGE": [
+      "98 Don’t know/Not sure 89 8.70 7.23 ",
+      "99 Refused 5 0.49 0.62 "
+    ],
+    "ASATTACK": [
+      "7 Don’t know/Not sure--- -Go to Module 08.05 ASRCHKUP 11 1.70 1.06 "
+    ],
+    "ASERVIST": [
+      "88 None 205 65.50 59.76 ",
+      "98 Don’t know/Not sure 4 1.28 3.60 "
+    ],
+    "ASDRVIST": [
+      "88 None 179 57.37 57.08 ",
+      "98 Don’t know/Not sure 8 2.56 5.63 "
+    ],
+    "ASRCHKUP": [
+      "88 None 218 33.85 36.99 ",
+      "98 Don’t know/Not sure 15 2.33 3.75 ",
+      "99 Refused 2 0.31 0.02 "
+    ],
+    "ASACTLIM": [
+      "777 Don’t know/Not sure 41 6.37 8.37 ",
+      "888 None 451 70.03 68.01 ",
+      "999 Refused 5 0.78 0.52 "
+    ],
+    "ASYMPTOM": [
+      "7 Don’t know/Not sure 25 3.90 4.14 ",
+      "9 Refused 3 0.47 0.49 "
+    ],
+    "ASNOSLEP": [
+      "7 Don’t know/Not sure 16 3.50 4.55 "
+    ],
+    "ASTHMED3": [
+      "7 Don’t know/Not sure 15 2.35 2.24 ",
+      "9 Refused 5 0.78 0.34 "
+    ],
+    "ASINHALR": [
+      "7 Don’t know/Not sure 10 1.56 1.20 ",
+      "9 Refused 4 0.63 0.31 "
+    ],
+    "HAREHAB1": [
+      "7 Don’t know/Not Sure 10 0.99 0.80 ",
+      "9 Refused 6 0.59 0.99 "
+    ],
+    "STREHAB1": [
+      "7 Don’t know/Not Sure 5 0.72 0.18 ",
+      "9 Refused 3 0.43 0.29 "
+    ],
+    "CVDASPRN": [
+      "7 Don’t know/Not sure 23 0.12 0.14 ",
+      "9 Refused 5 0.03 0.06 "
+    ],
+    "ASPUNSAF": [
+      "7 Don’t know/Not sure--- -Go to next module 110 0.83 0.72 ",
+      "9 Refused--- -Go to next module 12 0.09 0.13 "
+    ],
+    "RLIVPAIN": [
+      "7 Don’t know/Not Sure 24 0.43 0.80 ",
+      "9 Refused 3 0.05 0.01 "
+    ],
+    "RDUCHART": [
+      "7 Don’t know/Not Sure 148 2.63 2.63 ",
+      "9 Refused 1 0.02 0.01 "
+    ],
+    "RDUCSTRK": [
+      "7 Don’t know/Not Sure 416 7.40 6.08 ",
+      "9 Refused 5 0.09 0.11 "
+    ],
+    "ARTTODAY": [
+      "7 Don´t know/Not Sure 90 0.46 0.36 ",
+      "9 Refused 41 0.21 0.16 "
+    ],
+    "ARTHWGT": [
+      "7 Don´t know/Not Sure 109 0.55 0.38 ",
+      "9 Refused 33 0.17 0.15 "
+    ],
+    "ARTHEXER": [
+      "7 Don´t know/Not Sure 206 1.05 1.04 ",
+      "9 Refused 37 0.19 0.15 "
+    ],
+    "ARTHEDU": [
+      "7 Don´t know/Not Sure 67 0.34 0.41 ",
+      "9 Refused 30 0.15 0.13 "
+    ],
+    "TETANUS": [
+      "7 Don’t know/Not Sure 4,034 9.94 9.74 ",
+      "9 Refused 21 0.05 0.06 "
+    ],
+    "HPVADVC2": [
+      "7 Don’t know/Not Sure--- -Go to Next Module 1,017 9.31 9.00 ",
+      "9 Refused--- -Go to Next Module 30 0.27 0.40 "
+    ],
+    "HPVADSHT": [
+      "77 Don’t know/Not Sure 221 15.26 15.16 ",
+      "99 Refused 3 0.21 0.24 "
+    ],
+    "SHINGLE2": [
+      "7 Don’t know/Not Sure 455 1.62 1.81 ",
+      "9 Refused 15 0.05 0.08 "
+    ],
+    "HADMAM": [
+      "7 Don’t know/Not sure--- -Go to Module 14.03 HADPAP2 38 0.17 0.15 ",
+      "9 Refused--- -Go to Module 14.03 HADPAP2 39 0.17 0.28 "
+    ],
+    "HOWLONG": [
+      "7 Don’t know/Not sure 160 0.86 0.93 ",
+      "9 Refused 14 0.08 0.09 "
+    ],
+    "HADPAP2": [
+      "7 Don’t know/Not sure--- -Go to Module 14.05 HPVTEST 122 0.54 0.60 ",
+      "9 Refused--- -Go to Module 14.05 HPVTEST 40 0.18 0.25 "
+    ],
+    "LASTPAP2": [
+      "7 Don’t know/Not sure 485 2.28 2.08 ",
+      "9 Refused 17 0.08 0.08 "
+    ],
+    "HPVTEST": [
+      "7 Don’t know/Not Sure--- -Go to Module 14.07 HADHYST2 6,523 28.62 27.43 ",
+      "9 Refused--- -Go to Module 14.07 HADHYST2 47 0.21 0.26 "
+    ],
+    "HPLSTTST": [
+      "7 Don’t know/Not Sure 374 5.41 4.60 ",
+      "9 Refused 3 0.04 0.07 "
+    ],
+    "HADHYST2": [
+      "7 Don’t know/Not sure 52 0.23 0.32 ",
+      "9 Refused 54 0.24 0.32 "
+    ],
+    "PROFEXAM": [
+      "7 Don’t know/Not sure--- -Go to next module 14 0.25 0.29 ",
+      "9 Refused--- -Go to next module 6 0.11 0.24 "
+    ],
+    "LENGEXAM": [
+      "7 Don’t know/Not sure 49 0.99 0.88 ",
+      "9 Refused 4 0.08 0.09 "
+    ],
+    "BLDSTOOL": [
+      "7 Don’t know/Not Sure--- -Go to Module 16.03 HADSIGM3 443 0.81 0.91 ",
+      "9 Refused--- -Go to Module 16.03 HADSIGM3 52 0.10 0.13 "
+    ],
+    "LSTBLDS3": [
+      "7 Don’t know/Not sure 571 2.89 3.03 ",
+      "9 Refused 17 0.09 0.09 "
+    ],
+    "HADSIGM3": [
+      "7 Don’t know/Not Sure--- -Go to next module 237 0.44 0.40 ",
+      "9 Refused--- -Go to next module 64 0.12 0.17 "
+    ],
+    "HADSGCO1": [
+      "7 Don’t know/Not Sure 791 2.01 2.35 ",
+      "9 Refused 25 0.06 0.06 "
+    ],
+    "LASTSIG3": [
+      "7 Don’t know/Not sure 514 1.31 1.39 ",
+      "9 Refused 32 0.08 0.07 "
+    ],
+    "PCPSAAD2": [
+      "7 Don’t know/Not Sure 253 3.82 4.18 ",
+      "9 Refused 31 0.47 0.79 "
+    ],
+    "PCPSADI1": [
+      "7 Don’t know/Not Sure 286 4.32 4.49 ",
+      "9 Refused 27 0.41 0.72 "
+    ],
+    "PCPSARE1": [
+      "7 Don’t know/Not Sure 238 3.60 3.82 ",
+      "9 Refused 34 0.51 0.73 "
+    ],
+    "PSATEST1": [
+      "7 Don’t know/Not Sure--- -Go to next module 267 4.04 4.63 ",
+      "9 Refused--- -Go to next module 29 0.44 0.67 "
+    ],
+    "PSATIME": [
+      "7 Don’t know/Not Sure 77 2.12 2.32 ",
+      "9 Refused 5 0.14 0.12 "
+    ],
+    "PCPSARS1": [
+      "7 Don’t know/Not Sure 20 0.55 0.50 ",
+      "9 Refused 7 0.19 0.17 "
+    ],
+    "PCPSADE1": [
+      "9 Refused 8 0.98 0.94 "
+    ],
+    "PCDMDECN": [
+      "7 Don’t know/Not Sure 3 1.18 1.32 ",
+      "9 Refused 4 1.57 1.45 "
+    ],
+    "SCNTMNY1": [
+      "7 Don’t know/Not Sure 121 0.17 0.14 ",
+      "9 Refused 138 0.20 0.20 "
+    ],
+    "SCNTMEL1": [
+      "7 Don’t know/Not Sure 118 0.16 0.14 ",
+      "9 Refused 124 0.17 0.16 "
+    ],
+    "SCNTPAID": [
+      "7 Don’t know/Not Sure 172 0.49 0.48 ",
+      "9 Refused 253 0.73 0.71 "
+    ],
+    "SCNTWRK1": [
+      "97 Don’t know/Not Sure--- -Go to next module 628 1.81 1.82 ",
+      "99 Refused--- -Go to next module 193 0.56 0.59 "
+    ],
+    "SCNTLPAD": [
+      "7 Don’t know/Not Sure 563 2.19 1.94 ",
+      "9 Refused 171 0.67 0.55 "
+    ],
+    "SCNTLWK1": [
+      "97 Don’t know/Not Sure 2,580 6.71 6.26 ",
+      "99 Refused 201 0.52 0.54 "
+    ],
+    "SXORIENT": [
+      "7 Don’t know/Not Sure 1,759 1.05 1.43 ",
+      "9 Refused 2,951 1.77 1.92 "
+    ],
+    "TRNSGNDR": [
+      "7 Don’t know/Not Sure 946 0.57 0.66 ",
+      "9 Refused 1,524 0.91 0.85 "
+    ],
+    "RCSGENDR": [
+      "9 Refused 2,819 4.73 9.24 "
+    ],
+    "RCSRLTN2": [
+      "7 Don’t know/Not sure 33 0.06 0.08 ",
+      "9 Refused 2,213 3.72 8.49 "
+    ],
+    "CASTHDX2": [
+      "7 Don’t know/Not Sure--- -Go to next module 555 1.06 1.19 ",
+      "9 Refused--- -Go to next module 1,941 3.71 8.76 "
+    ],
+    "CASTHNO2": [
+      "7 Don’t know/Not Sure 155 2.38 2.80 ",
+      "9 Refused 2 0.03 0.04 "
+    ],
+    "EMTSUPRT": [
+      "7 Don’t know/Not sure 232 1.16 1.10 ",
+      "9 Refused 99 0.49 0.44 "
+    ],
+    "LSATISFY": [
+      "7 Don’t know/Not sure 133 0.66 0.70 ",
+      "9 Refused 81 0.40 0.41 "
+    ],
+    "ADPLEASR": [
+      "88 None 13,663 66.83 63.14 ",
+      "77 Don’t know/Not sure 594 2.91 3.13 ",
+      "99 Refused 119 0.58 0.39 "
+    ],
+    "ADDOWN": [
+      "88 None 14,962 73.24 69.87 ",
+      "77 Don’t know/Not sure 185 0.91 0.92 ",
+      "99 Refused 63 0.31 0.31 "
+    ],
+    "ADSLEEP": [
+      "88 None 10,788 52.83 50.53 ",
+      "77 Don’t know/Not sure 256 1.25 1.21 ",
+      "99 Refused 58 0.28 0.24 "
+    ],
+    "ADENERGY": [
+      "88 None 7,776 38.09 34.81 ",
+      "77 Don’t know/Not sure 339 1.66 1.42 ",
+      "99 Refused 66 0.32 0.26 "
+    ],
+    "ADEAT1": [
+      "88 None 12,998 63.71 61.81 ",
+      "77 Don’t know/Not sure 302 1.48 1.51 ",
+      "99 Refused 58 0.28 0.22 "
+    ],
+    "ADFAIL": [
+      "88 None 16,682 81.79 78.33 ",
+      "77 Don’t know/Not sure 160 0.78 0.79 ",
+      "99 Refused 75 0.37 0.37 "
+    ],
+    "ADTHINK": [
+      "88 None 17,156 84.18 81.04 ",
+      "77 Don’t know/Not sure 175 0.86 0.91 ",
+      "99 Refused 52 0.26 0.24 "
+    ],
+    "ADMOVE": [
+      "88 None 17,705 86.94 84.56 ",
+      "77 Don’t know/Not sure 394 1.93 2.09 ",
+      "99 Refused 53 0.26 0.25 "
+    ],
+    "MISTMNT": [
+      "7 Don’t know/Not sure 44 0.22 0.21 ",
+      "9 Refused 44 0.22 0.25 "
+    ],
+    "ADANXEV": [
+      "7 Don’t know/Not sure 91 0.45 0.54 ",
+      "9 Refused 38 0.19 0.19 "
+    ],
+    "_CHISPNC": [
+      "9 Don’t know/Not Sure/Refused 257,768 80.64 75.21 "
+    ],
+    "_CRACE1": [
+      "77 Don’t know/Not sure 706 1.08 1.20 ",
+      "99 Refused 3,160 4.85 9.36 "
+    ],
+    "_CPRACE": [
+      "77 Don’t know/Not sure 706 1.08 1.20 ",
+      "99 Refused 3,160 4.85 9.36 "
+    ],
+    "_RFHLTH": [
+      "9 Don’t know/Not Sure Or Refused/Missing "
+    ],
+    "_HCVU651": [
+      "9 Don’t know/Not Sure, Refused or Missing "
+    ],
+    "_RFHYPE5": [
+      "9 Don’t know/Not Sure/Refused/Missing "
+    ],
+    "_CHOLCHK": [
+      "9 Don’t know/Not Sure Or Refused/Missing "
+    ],
+    "_RFCHOL": [
+      "9 Don’t know/Not Sure Or Refused/Missing "
+    ],
+    "_LTASTH1": [
+      "9 Don’t know/Not Sure Or Refused/Missing "
+    ],
+    "_CASTHM1": [
+      "9 Don’t know/Not Sure Or Refused/Missing "
+    ],
+    "_ASTHMS1": [
+      "9 Don’t know/Not Sure Or Refused/Missing "
+    ],
+    "_PRACE1": [
+      "77 Don’t know/Not sure ",
+      "99 Refused "
+    ],
+    "_MRACE1": [
+      "77 Don’t know/Not sure ",
+      "99 Refused "
+    ],
+    "_HISPANC": [
+      "9 Don´t Know, Refused or Missing 4,136 0.94 0.95 "
+    ],
+    "_RACE": [
+      "9 Don’t know/Not sure/Refused "
+    ],
+    "_RACEG21": [
+      "9 Don’t know/Not sure/Refused "
+    ],
+    "_RACEGR3": [
+      "9 Don’t know/Not sure/Refused 7,437 1.68 1.68 "
+    ],
+    "_AGEG5YR": [
+      "14 Don’t know/Refused/Missing "
+    ],
+    "_AGE65YR": [
+      "3 Don’t know/Refused/Missing "
+    ],
+    "WTKG3": [
+      "99999 Don’t know/Refused/Missing "
+    ],
+    "_RFBMI5": [
+      "9 Don’t know/Refused/Missing "
+    ],
+    "_CHLDCNT": [
+      "9 Don’t know/Not sure/Missing "
+    ],
+    "_EDUCAG": [
+      "9 Don’t know/Not sure/Missing "
+    ],
+    "_INCOMG": [
+      "9 Don’t know/Not sure/Missing "
+    ],
+    "_SMOKER3": [
+      "9 Don’t know/Refused/Missing "
+    ],
+    "_RFSMOK3": [
+      "9 Don’t know/Refused/Missing "
+    ],
+    "DRNKANY5": [
+      "7 Don’t know/Not Sure ",
+      "9 Refused/Missing "
+    ],
+    "DROCDY3_": [
+      "900 Don’t know/Not Sure Or Refused/Missing "
+    ],
+    "_RFBING5": [
+      "9 Don’t know/Refused/Missing "
+    ],
+    "_DRNKWEK": [
+      "99900 Don’t know/Not sure/Refused/Missing "
+    ],
+    "_RFDRHV5": [
+      "9 Don’t know/Refused/Missing "
+    ],
+    "_FRTLT1": [
+      "9 Don´t know, refused or missing values 43,711 9.90 11.59 "
+    ],
+    "_VEGLT1": [
+      "9 Don´t know, refused or missing values 51,117 11.58 13.19 "
+    ],
+    "_TOTINDA": [
+      "9 Don’t know/Refused/Missing "
+    ],
+    "MAXVO2_": [
+      "99900 Don’t know/Not Sure/Refused/Missing 5,336 1.21 1.01 "
+    ],
+    "FC60_": [
+      "99900 Don’t know/Not Sure/Refused/Missing 5,336 1.21 1.01 "
+    ],
+    "PAFREQ1_": [
+      "99000 Don’t know/Not Sure/Refused 18 0.01 0.01 "
+    ],
+    "PAFREQ2_": [
+      "99000 Don’t know/Not Sure/Refused 22 0.01 0.01 "
+    ],
+    "STRFREQ_": [
+      "99000 Don’t know/Not Sure/Refused 19 0.00 0.00 "
+    ],
+    "PAMISS1_": [
+      "9 Don’t know/Not Sure/Refused 37,992 8.61 10.98 "
+    ],
+    "_PACAT1": [
+      "9 Don’t know/Not Sure/Refused/Missing 55,895 12.66 14.48 "
+    ],
+    "_PAINDX1": [
+      "9 Don’t know/Not Sure/Refused/Missing 53,260 12.06 14.01 "
+    ],
+    "_PA150R2": [
+      "9 Don’t know/Not Sure/Refused/Missing 53,260 12.06 14.01 "
+    ],
+    "_PA300R2": [
+      "9 Don’t know/Not Sure/Refused/Missing 55,895 12.66 14.48 "
+    ],
+    "_PA30021": [
+      "9 Don’t know/Not Sure/Refused/Missing 55,895 12.66 14.48 "
+    ],
+    "_PASTRNG": [
+      "9 Don’t know/Not Sure/Refused/Missing 44,013 9.97 12.46 "
+    ],
+    "_PAREC1": [
+      "9 Don’t know/Not Sure/Refused/Missing 57,509 13.03 15.01 "
+    ],
+    "_PASTAE1": [
+      "9 Don’t know/Not Sure/Refused/Missing 57,509 13.03 15.01 "
+    ],
+    "_LMTACT1": [
+      "9 Don´t know, refused or missing usual activities limited 12,996 2.96 2.58 "
+    ],
+    "_LMTWRK1": [
+      "9 Don´t know, refused or missing work limited 15,616 3.56 2.93 "
+    ],
+    "_LMTSCL1": [
+      "9 Don´t know, refused or missing social activities limited 12,999 2.96 2.61 "
+    ],
+    "_RFSEAT2": [
+      "9 Don’t know/Not Sure Or Refused/Missing 42,796 9.69 12.27 "
+    ],
+    "_RFSEAT3": [
+      "9 Don’t know/Not Sure Or Refused/Missing 42,796 9.69 12.27 "
+    ],
+    "_FLSHOT6": [
+      "9 Don’t know/Not Sure Or Refused/Missing 18,943 11.99 15.05 "
+    ],
+    "_PNEUMO2": [
+      "9 Don’t know/Not Sure Or Refused/Missing "
+    ],
+    "_AIDTST3": [
+      "9 Don’t know/Not Sure/Refused "
+    ]
+  }
+}

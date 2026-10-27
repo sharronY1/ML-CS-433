@@ -113,7 +113,31 @@ SHA256 of the confirmed CSV:
 5d36a1d04ea2b9656da5d8cb78c7c100c4c54244eb869cc68f1540824fa619c6
 ```
 
-See the [full reproduction record](results/final_gd/全流程复现记录_20261027.md). Retraining in a different NumPy/BLAS environment may introduce small numerical differences.
+The full-data reproduction settings and CSV hash are recorded above. Retraining in a different NumPy/BLAS environment may introduce small numerical differences.
+
+### Six-method baseline comparison (independent 333-feature protocol)
+
+```bash
+python experiments/baseline_comparison.py
+```
+
+The script rebuilds the historical 333-feature preprocessing from raw CSV files, uses 40000 fitting rows, 15000 calibration rows and 65627 validation rows, and directly calls the six functions in the root implementations.py. It fixes the settings selected during the historical calibration stage; it does not repeat the original hyperparameter search or read old F1 values as new results.
+
+Execution writes `results/baseline_comparison.csv`, including settings, thresholds, precision, recall, F1 and failure messages. If Least Squares fails because of a singular matrix, the failure is recorded without substituting a pseudoinverse. This pipeline neither calls the current 584-feature preprocessing nor overwrites the final model. Preprocessing statistics follow the old protocol and use the outer 80% training portion; the 40000 rows are the subset used to fit model weights. Iterative methods use finite budgets, without claiming strict convergence.
+
+### Historical feature-engineering ablation
+
+```bash
+python experiments/ablation_study.py
+```
+
+This command trains four separate logistic regression models using the historical seed-42 stratified 80/20 split (262508 training and 65627 validation rows), 5000 GD iterations, gamma=0.01, and zero initial weights. It reproduces the 322/333-feature protocol, without using the current 584-feature cache or modifying the final model. The archived rules in `experiments/ablation/` are kept separately because this experiment must compare earlier cleaning stages. Eight products and three squares are constructed from standardized original features and then scaled using training statistics.
+
+Historical values are in `results/ablation/recorded_results.csv`; the first row comes from user terminal output and a historical input-equivalence check. Later rows have saved machine-readable experiment results. The two-seed interaction comparison is in `recorded_interaction_seeds.csv`. These files were organized from existing evidence, not produced by a new training run. See [evidence and limitations](results/records/Ablation_Evidence_20261027.md).
+
+Running the script writes fresh values to `results/ablation/reproduced_results.csv` and all five threshold candidates to `reproduced_thresholds.csv`, leaving the historical tables unchanged. It runs all four models, so expect a lengthy run. No retraining was performed while packaging this experiment. Seed 43 is supplemental recorded evidence; to reproduce it, set `SEED = 43` and compare the units_log/health_pairs results at threshold 0.2 in the threshold CSV.
+
+Thresholds were selected on the repeatedly used validation set; these are development results. Do not attribute the combined zero-code/unit/log changes to log1p alone, or compare their differences directly with the separate six-method baseline or final-model protocol.
 
 ## Official public tests
 

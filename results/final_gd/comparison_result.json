@@ -1,0 +1,113 @@
+{
+  "settings": {
+    "outer_seed": 42,
+    "outer_train_rows": 262508,
+    "fit_rows": 247508,
+    "calibration_rows": 15000,
+    "validation_rows": 65627,
+    "features": 584,
+    "optimizer": "implementations.logistic_regression: full-batch GD",
+    "initialization": "zeros",
+    "gamma": 0.09377751905420602,
+    "gamma_rule": "0.9 / (0.25 * lambda_max(standardized_X_fit.T @ standardized_X_fit / N_fit))",
+    "extra_preprocessing": "z-score every non-intercept feature using fitting rows only",
+    "largest_gram_eigenvalue": 38.388731503113235,
+    "gram_seconds": 1.0684774999972433,
+    "milestones": [
+      300,
+      1000,
+      2000,
+      5000,
+      10000,
+      20000
+    ],
+    "threshold_policy": "select on same 15000 calibration rows at each fixed checkpoint",
+    "thread_limits_forced": false,
+    "thread_environment": {
+      "OPENBLAS_NUM_THREADS": null,
+      "OMP_NUM_THREADS": null,
+      "MKL_NUM_THREADS": null
+    },
+    "numpy": "2.3.5",
+    "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]"
+  },
+  "records": [
+    {
+      "iterations": 300,
+      "gamma": 0.09377751905420602,
+      "training_loss": 0.2249943672807999,
+      "gradient_inf": 0.02256052156726776,
+      "threshold": 0.24384589683821334,
+      "calibration_f1": 0.43704680290046144,
+      "validation": {
+        "tp": 2924,
+        "fp": 4762,
+        "fn": 2871,
+        "positives": 5795,
+        "precision": 0.380431954202446,
+        "recall": 0.5045729076790336,
+        "f1": 0.4337957124842371
+      },
+      "validation_f1_delta": -0.005073153609469583,
+      "training_elapsed_seconds": 57.82945409999229
+    },
+    {
+      "iterations": 1000,
+      "gamma": 0.09377751905420602,
+      "training_loss": 0.21605413253149303,
+      "gradient_inf": 0.0034984016518617555,
+      "threshold": 0.22056849217811933,
+      "calibration_f1": 0.43728056176188956,
+      "validation": {
+        "tp": 3025,
+        "fp": 5059,
+        "fn": 2770,
+        "positives": 5795,
+        "precision": 0.37419594260267197,
+        "recall": 0.5220017256255393,
+        "f1": 0.4359103681821457
+      },
+      "validation_f1_delta": -0.0029584979115609977,
+      "training_elapsed_seconds": 206.14374410000164
+    },
+    {
+      "iterations": 2000,
+      "gamma": 0.09377751905420602,
+      "training_loss": 0.2152799886576299,
+      "gradient_inf": 0.0007530489925957896,
+      "threshold": 0.2043741811970397,
+      "calibration_f1": 0.4398541919805589,
+      "validation": {
+        "tp": 3208,
+        "fp": 5625,
+        "fn": 2587,
+        "positives": 5795,
+        "precision": 0.3631835163591079,
+        "recall": 0.5535806729939603,
+        "f1": 0.4386108832376265
+      },
+      "validation_f1_delta": -0.00025798285608019667,
+      "training_elapsed_seconds": 416.19523250008933
+    }
+  ],
+  "matched": true,
+  "selected": {
+    "iterations": 2000,
+    "gamma": 0.09377751905420602,
+    "training_loss": 0.2152799886576299,
+    "gradient_inf": 0.0007530489925957896,
+    "threshold": 0.2043741811970397,
+    "calibration_f1": 0.4398541919805589,
+    "validation": {
+      "tp": 3208,
+      "fp": 5625,
+      "fn": 2587,
+      "positives": 5795,
+      "precision": 0.3631835163591079,
+      "recall": 0.5535806729939603,
+      "f1": 0.4386108832376265
+    },
+    "validation_f1_delta": -0.00025798285608019667,
+    "training_elapsed_seconds": 416.19523250008933
+  }
+}
