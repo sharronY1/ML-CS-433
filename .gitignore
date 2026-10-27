@@ -1,0 +1,13 @@
+# Local data, generated caches and trained parameters
+/data/
+/cache/
+/models/
+**/__pycache__/
+.pytest_cache/
+*.py[cod]
+*.npz
+*.npy
+# Per-sample predictions are submitted to AIcrowd separately.
+/results/submission*.csv
+/results/submission_check.json
+/results/experiments/ensemble/submission*.csv
