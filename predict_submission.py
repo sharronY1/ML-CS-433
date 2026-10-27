@@ -53,7 +53,9 @@ def generate_submission(data_path, output, project_dir=None):
     with source.open(encoding="utf-8-sig", newline="") as f:
         header = next(csv.reader(f))
         if header[1:] != params["names"].tolist():
-            raise ValueError("测试集特征名或顺序与训练参数不一致。")
+            raise ValueError(
+                "Test feature names or order do not match the training parameters."
+            )
     # 预测
     _, x_test, _, _, test_ids = load_csv_data(str(data_path))
     x_test = transform_features(x_test, params)
@@ -62,7 +64,7 @@ def generate_submission(data_path, output, project_dir=None):
     # 保存csv
     output.parent.mkdir(parents=True, exist_ok=True)
     create_csv_submission(test_ids, predictions, str(output))
-    print("已保存提交文件：", output, "，行数：", len(test_ids))
+    print("Saved submission file:", output, ", rows:", len(test_ids))
     return output
 
 

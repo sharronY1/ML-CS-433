@@ -479,14 +479,14 @@ def prepare_features(
     # ===== 新增：保存测试集预测需要的预处理参数，不训练模型 =====
     # 列数是否正确
     if x_tr.shape[1] != 584:
-        raise ValueError("特征数量不正确")
+        raise ValueError("Incorrect number of features.")
     # 保存预处理时的参数
     _preprocessing_path = model_dir / "preprocessing.npz"
     np.savez(
         _preprocessing_path,
         **params,
     )
-    print("已导出预处理参数：", _preprocessing_path)
+    print("Saved preprocessing parameters:", _preprocessing_path)
     # ===== 预处理参数导出结束 =====
 
     return dict(

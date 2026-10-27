@@ -146,7 +146,7 @@ def reg_logistic_regression(y, tx, lambda_, initial_w, max_iters, gamma):
             z = tx @ w
             data_loss = np.mean(np.logaddexp(0, z) - y * z)
             objective = data_loss + lambda_ * np.sum(w**2)
-            print("迭代：", step + 1, "训练目标：", objective)
+            print("Iteration:", step + 1, "Training objective:", objective)
     z = tx @ w
     loss = np.mean(np.logaddexp(0, z) - y * z)
     return w, loss
