@@ -1,0 +1,2 @@
+# Runtime dependency; verified with Python 3.12.14.
+numpy==2.3.5

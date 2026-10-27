@@ -15,10 +15,10 @@ Binary classification using ordinary logistic regression and full-batch gradient
 | `helpers.py` | Course-provided data loading and submission CSV writing functions |
 | `experiments/validation.py` | Data splitting, GD training, threshold selection, and validation evaluation |
 
-Execution requires Python 3 and NumPy. The verified full reproduction used Python 3.12.14 and NumPy 2.3.5. Use the same Python interpreter for installation and execution.
+Execution requires Python 3 and NumPy. The verified full reproduction used Python 3.12.14 and NumPy 2.3.5. For reproduction, use Python 3.12 and the NumPy version pinned in `requirements.txt`. Use the same Python interpreter for installation and execution.
 
 ```bash
-python -m pip install numpy
+python -m pip install -r requirements.txt
 ```
 
 Obtain the data through the course-designated channel and place it under the project directory:
