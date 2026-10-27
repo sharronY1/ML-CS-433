@@ -1,4 +1,5 @@
-"""读取、预处理并保存数据，最后调用全量训练和预测。"""
+# 读取、预处理并保存数据，最后调用全量训练和预测。
+"""Load, preprocess, and save data, then run full-data training and prediction."""
 
 import model
 import csv
@@ -9,7 +10,8 @@ from helpers import load_csv_data
 
 
 def load_data(data_path):
-    """读取原始训练特征、标签和列名；清洗由统一转换函数执行。"""
+    # 读取原始训练特征、标签和列名；清洗由统一转换函数执行。
+    """Load raw training features, labels, and column names; the shared pipeline handles cleaning."""
     data_path = str(data_path)
     with open(Path(data_path) / "x_train.csv", encoding="utf-8-sig") as f:
         names = next(csv.reader(f))[1:]
@@ -20,17 +22,20 @@ def load_data(data_path):
 
     return x_train, y_train, names
 
+
 # 尝试初步清洗，总结了几条效果比较好的规则（特殊情况）：
 
-    # 本次验证：5000 次迭代、学习率 0.01，五个原有候选阈值中的最佳 F1=0.42674160。
-    # ===== 根据 BRFSS 2015 数据手册，把数据中那些实际上代表“缺失”的特殊数字转换成 np.nan =====
-    # 因为有些缺失值并没有写成 NaN，而是用特殊数字表示
-    # 这里只修改指定特征的值；原来的划分、填补、标准化和模型代码保持不变。
-    # 来源：https://www.cdc.gov/brfss/annual_data/2015/pdf/codebook15_llcp.pdf
+
+# 本次验证：5000 次迭代、学习率 0.01，五个原有候选阈值中的最佳 F1=0.42674160。
+# ===== 根据 BRFSS 2015 数据手册，把数据中那些实际上代表“缺失”的特殊数字转换成 np.nan =====
+# 因为有些缺失值并没有写成 NaN，而是用特殊数字表示
+# 这里只修改指定特征的值；原来的划分、填补、标准化和模型代码保持不变。
+# 来源：https://www.cdc.gov/brfss/annual_data/2015/pdf/codebook15_llcp.pdf
 def clean_columns(x, names):
-    """按原有顺序执行清洗规则，训练集与测试集共用。"""
+    # 按原有顺序执行清洗规则，训练集与测试集共用。
+    """Apply the original cleaning rules in order for both training and test data."""
     x = np.array(x, dtype=float, copy=True)
-    
+
     # 做一个字典记录特殊情况的列以及他缺失值的时候显示什么
     _missing_code_groups = {
         (
@@ -256,9 +261,11 @@ def clean_columns(x, names):
 
     return x
 
-#新增特征列，处理
+
+# 新增特征列，处理
 def _process_features(raw, names, params=None, standardization_rows=None):
-    """按原顺序执行唯一一套特征处理：拟合时计算统计，转换时复用统计。"""
+    # 按原顺序执行唯一一套特征处理：拟合时计算统计，转换时复用统计。
+    """Apply the shared feature pipeline in order, fitting or reusing preprocessing statistics."""
     fitting = params is None
     x_tr = clean_columns(raw, names)
     # ===== 新增：记录清洗后、填补前的缺失位置 =====
@@ -408,9 +415,13 @@ def _process_features(raw, names, params=None, standardization_rows=None):
 
     if fitting:
         params = dict(
-            medians=medians, means=means, stds=stds,
-            extra_means=_extra_means, extra_stds=_extra_stds,
-            final_means=final_means, final_stds=final_stds,
+            medians=medians,
+            means=means,
+            stds=stds,
+            extra_means=_extra_means,
+            extra_stds=_extra_stds,
+            final_means=final_means,
+            final_stds=final_stds,
             names=np.asarray(names),
             extra_spec_json=json.dumps(_extra_feature_spec, ensure_ascii=False),
             missing_names=np.asarray(_missing_feature_names),
@@ -418,10 +429,13 @@ def _process_features(raw, names, params=None, standardization_rows=None):
         )
     return x_tr, params
 
-#不传已有的 params，让 _process_features() 根据训练数据计算预处理参数并且返回处理好的训练数据
+
+# 不传已有的 params，让 _process_features() 根据训练数据计算预处理参数并且返回处理好的训练数据
 def fit_preprocessing(x, names, standardization_rows=None):
-    """计算预处理参数，同时返回处理好的训练数据。"""
+    # 计算预处理参数，同时返回处理好的训练数据。
+    """Fit preprocessing parameters and return the processed training data."""
     return _process_features(x, names, standardization_rows=standardization_rows)
+
 
 def prepare_features(
     x_tr,
@@ -434,7 +448,8 @@ def prepare_features(
     y_val=None,
     standardization_rows=None,
 ):
-    """处理传入的数据并保存，不进行训练/验证划分。"""
+    # 处理传入的数据并保存，不进行训练/验证划分。
+    """Process and save the supplied data without creating a training/validation split."""
     data_path = str(data_path)
     cache_path = Path(cache_path)
     model_dir = Path(model_dir)
@@ -474,7 +489,6 @@ def prepare_features(
     print("已导出预处理参数：", _preprocessing_path)
     # ===== 预处理参数导出结束 =====
 
-
     return dict(
         cache_path=str(cache_path),
         model_dir=str(model_dir),
@@ -484,15 +498,19 @@ def prepare_features(
 
 
 def prepare_data(data_path, project_dir=None):
-    """读取全部训练数据，清洗、处理并保存。"""
+    # 读取全部训练数据，清洗、处理并保存。
+    """Load, clean, preprocess, and save the full training dataset."""
     if project_dir is None:
         project_dir = Path(__file__).resolve().parent
     project_dir = Path(project_dir)
     x_train, y_train, names = load_data(data_path)
     return prepare_features(
-        x_train, y_train, names,
+        x_train,
+        y_train,
+        names,
         project_dir / "cache/prepared_full_data.npz",
-        project_dir / "models", data_path,
+        project_dir / "models",
+        data_path,
     )
 
 
