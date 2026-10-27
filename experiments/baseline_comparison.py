@@ -223,13 +223,13 @@ def main():
     raw, _, labels, _, _ = load_csv_data(str(data_path))
     data = prepare_333(raw, labels, names)
     del raw, labels
-    #运行六个模型
+    # 运行六个模型
     records = []
     for name, settings in SETTINGS.items():
         record = train_method(name, data, settings)
         records.append(record)
         print(name, "F1:", record["f1"], "Status:", record["status"])
-    #保存实验结果
+    # 保存实验结果
     output = PROJECT / "results/baseline_comparison.csv"
     output.parent.mkdir(parents=True, exist_ok=True)
     with output.open("w", encoding="utf-8", newline="") as f:
